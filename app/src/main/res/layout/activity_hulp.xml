@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kwaliteitvanleven.hulpActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titellabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hulp - Resultaat"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Totale Score : 123"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Je zit goed in je vel"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wil je met een expert spreken?"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Klik hier"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:onClick="naarLocatie"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Of doe de test opnieuw"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:text="Test opnieuw"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:onClick="returnTop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bekijk alle resultaten"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:text="Bekijk"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:onClick="naarResultaten"/>
+
+
+
+</LinearLayout>

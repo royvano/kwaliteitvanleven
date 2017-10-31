@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757354739943",
+    "firebase_url": "https://kwaliteitvanleven-e12ce.firebaseio.com",
+    "project_id": "kwaliteitvanleven-e12ce",
+    "storage_bucket": "kwaliteitvanleven-e12ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757354739943:android:e896e6fac4e4a559",
+        "android_client_info": {
+          "package_name": "com.example.kwaliteitvanleven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757354739943-u7qtrbruj3cv1rabnnqgo7k9r92uaho0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kwaliteitvanleven",
+            "certificate_hash": "d8b18c488258bf8ef147c40ec3f4cba3dab48b29"
+          }
+        },
+        {
+          "client_id": "757354739943-l023dmq2s20efqmp18lk0el13ctnj6nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhPknYUVW2mlw3PhRlqXb8tj6N65X9AEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757354739943-l023dmq2s20efqmp18lk0el13ctnj6nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
